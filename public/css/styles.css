@@ -1,0 +1,42 @@
+header{
+    margin-bottom:48px;
+}
+header h1{
+    font-size: 64px;
+}
+header a{
+    color:rgb(65, 62, 62);
+    text-decoration: none;
+    margin-right: 16px;
+}
+body{
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content{
+    flex-grow: 1;
+}
+.potrait{
+    width:150px
+}
+input{
+    padding: 8px;
+    border: 2px solid grey ;
+}
+button{
+    background: grey;
+    color: honeydew;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer{
+    border-top: 2px solid #888888;
+    margin: 2px 0 4px 0;
+    padding: 2px;
+    color:#888888
+}
